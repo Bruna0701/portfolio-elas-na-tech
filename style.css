@@ -1,0 +1,125 @@
+html{
+    height: 100%;
+}
+body {
+    color: white;
+    background-color: rgb(46, 192, 177);
+    margin: 0px;
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+    font-size: 18px;
+    height: 100vh;
+}
+
+header{
+    align-items: center;
+    text-align: center;
+}
+
+nav{
+    background-color: rgb(4, 126, 114);
+    width: 100%;
+    display: flex;
+    padding: 5px 0px 5px 0px;
+
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(29, 56, 207);
+}
+
+footer{
+    width: 100%;
+    background-color: rgb(4, 126, 114);
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+    display: flex;
+
+    font-weight: bold;
+}
+
+footer img{
+    width: 40px;
+    height: 40px;
+    
+    border-radius: 50%;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.container{
+    max-width: 100%;
+    width: 100%;
+	margin: 0 auto;
+}
+
+.main_content{
+    width: 70%;
+    height: 100%;
+    display: inline-block;
+}
+
+.side_menu{
+    width: 20%;
+    height: 100%;
+    float: right;
+    padding: 20px 0px 0px 10px;
+    background-color: rgb(18, 156, 142);
+}
+
+.tela{
+    height: 1000px;
+}
+
+.side_menu img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(14, 104, 96);
+
+}
+
+.sec{
+	width: 100%;
+	float: left;
+    
+    margin: 20px 10px 5px 45px;
+
+    border-bottom: 1px solid rgb(14, 104, 96);;
+}
+
+.sec p{
+    text-align: justify;
+    margin-left: 10px;    
+}
+
+.sec li{
+    line-height: 225%;
+}
+
+.titulo{
+    width: 100%;
+    border-bottom: 4px dotted rgb(4, 126, 114);
+    float: left;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
+.um_terco{
+    float: left;
+	width: 33%;
+    background-color: rgb(4, 126, 114);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}
